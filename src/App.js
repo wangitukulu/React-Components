@@ -1,24 +1,22 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Nav from './Components/Nav';
+import Header from './Components/Header';
+import Para from './Components/Para';
+import Paragraph from './Components/Para';
+import Foot from './Components/Footer';
+{/* the following child components are inserted into the major components App */}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Header />
+      <Nav />
+      {/*Add a "name" attribute was added to the Paragraph and Foot component */}
+      <Paragraph name="Hyperion"/>
+      <Foot name="Wonda Wasilua Joel" />
     </div>
+ 
   );
 }
 

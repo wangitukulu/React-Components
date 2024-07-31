@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container text-center {
+  background-color: #61dafb;;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 5px;
+}
+.btn{
+  background-color: #0c2340;
+}
+
+.contain{
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c2340;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background-color: #0c2340;
+}
+
+li {
+    float: left;
+}
+
+li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.contain button{
+  padding: 5px;
+  background-color: #0c2340;
+}
+button :hover{
+  background-color: yellow;
+}
+.one{
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #0c2340;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #0c2340;
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  color: lightblue;
+}
+.grid{
+  background-color: #0c2340;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  text-align: left;
+  color: white;
+
+}
+div{
+  position: relative;
+}
+.image{
+  width: 30%;
+  float: right;
+  height: auto;
+}
+button{ 
+  size: 10px;
+}
+.col{
+  font-size: 22px;
+  font-weight: 500;
 }
